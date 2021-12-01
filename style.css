@@ -70,3 +70,24 @@ button:focus{
     background-color: #5e3370;
     outline: none;
 }
+
+@media screen and (max-width: 600px) {
+ .quiz-container {
+     width: 500px;
+     max-width: 100%;
+ }
+}
+
+@media screen and (max-width: 500px) {
+ .quiz-container {
+     width: 450px;
+     max-width: 100%;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .quiz-container {
+     width: 400px;
+     max-width: 100%;
+ }
+}
